@@ -33,6 +33,7 @@ button{
     color: #111;
     align-self: flex-end;
     margin: 2% 4% 2% 2%;
+    cursor: pointer;
 }
 button.switch{
     border: #FFA1FF 1px solid;
@@ -40,6 +41,7 @@ button.switch{
     background-color: #eeeeee00;
     text-shadow: 0 0 10px #FEF705, 0 0 5px #FEF705, 0 0 2px #FEF705;
     color: #FFFCA3;
+    cursor: pointer;
 }
 h1{
     align-self: center;
@@ -70,6 +72,10 @@ img{
     aspect-ratio: 22 / 5;
     margin: auto;
     margin-top: 2%;
+}
+img.switch{
+    border: 1px #FFAC61 solid;
+    box-shadow: 0 0 15px #F27402, 0 0 10px #F27402, 0 0 2px #F27402;
 }
 /* ------------------------------------------------------- */
 /* image styles */
@@ -102,12 +108,21 @@ h2{
 h2.switch, ol li.switch, ol li a.switch{
     font-family: "Kodchasan", sans-serif;
     color: #FCF5EC;
+    line-height: 1.3em;
 }
 ol li a, ol li{
     font-family: "Cormorant", serif;
     color: #111;
     font-size: 16px;
     text-decoration: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #111;
+}
+a.switch:link, a.switch:visited{
+    text-decoration: none;
+    color: #FCF5EC;
 }
 /* ------------------------------------------------------- */
 /* footer styles */

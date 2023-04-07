@@ -6,7 +6,7 @@
     const h1 = document.querySelector('h1');
     const h2s = document.querySelectorAll('h2');
     const lines = document.querySelectorAll('hr');
-    //const banner = document.querySelector('#banner');
+    const image = document.querySelector('img');
     const sections = document.querySelectorAll('section');
     const lis = document.querySelectorAll('li');
     const allA = document.querySelectorAll('a');
@@ -16,7 +16,7 @@
     button.addEventListener('click', function() {
         if (mode === 'dark') {
             body.className = 'switch';
-            //banner.className = 'switch';
+            image.className = 'switch';
             for (const line of lines) {
                 line.className = 'switch';
             }
@@ -25,7 +25,8 @@
             for (const h2 of h2s) {
                 h2.className = 'switch';
             }
-            document.querySelector("img").src = 'images/neon.png';
+            image.src = 'images/neon.png';
+            image.alt = 'layered neon signs';
             for (const section of sections) {
                 section.className = 'switch';
             }
@@ -35,11 +36,11 @@
             for (const a of allA) {
                 a.className = 'switch';
             }
-            quote.className = 'switch';
+            document.querySelector("footer").innerHTML = '<blockquote class="switch">&ldquo;To shine your brightest light is to be who you truly are.&rdquo; &ndash; Roy T. Bennet</blockquote>';
             mode = 'light';
         } else {
             body.removeAttribute('class');
-            //banner.removeAttribute('class');
+            image.removeAttribute('class');
             button.removeAttribute('class');
             for (const line of lines) {
                 line.removeAttribute('class');
@@ -48,7 +49,8 @@
             for (const h2 of h2s) {
                 h2.removeAttribute('class');
             }
-            document.querySelector("img").src = 'images/newspaper.png';
+            image.src = 'images/newspaper.png';
+            image.alt = 'layered image of newspaper sheets';
             for (const section of sections) {
                 section.removeAttribute('class');
             }
@@ -58,8 +60,8 @@
             for (const a of allA) {
                 a.removeAttribute('class');
             }
-            quote.removeAttribute('class');
-            mode = 'dark'
+            document.querySelector("footer").innerHTML = "<blockquote>&ldquo;You can never get a book long enough to suit me.&rdquo; &ndash; C.S. Lewis</blockquote>";
+            mode = 'dark';
         }
     })
 })()
