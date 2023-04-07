@@ -25,6 +25,7 @@
             for (const h2 of h2s) {
                 h2.className = 'switch';
             }
+            document.querySelector("img").src = 'images/neon.png';
             for (const section of sections) {
                 section.className = 'switch';
             }
@@ -47,6 +48,7 @@
             for (const h2 of h2s) {
                 h2.removeAttribute('class');
             }
+            document.querySelector("img").src = 'images/newspaper.png';
             for (const section of sections) {
                 section.removeAttribute('class');
             }
