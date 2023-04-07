@@ -5,6 +5,12 @@ body{
     height: 100%;
     background-color: #FCF5EC;
 }
+body.switch{
+    background-image: url(images/smoke_bg.png);
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
 /* ------------------------------------------------------- */
 /* header styles */
 header{
@@ -16,6 +22,10 @@ button, h1{
     font-size: 20px;
     color: #111;
 }
+button.switch, h1.switch{
+    font-family: "Kodchasan", sans-serif;
+    color: #eee;
+}
 button{
     border: 1px #111 solid;
     background-color: #fcf5ec00;
@@ -24,16 +34,32 @@ button{
     align-self: flex-end;
     margin: 2% 4% 2% 2%;
 }
+button.switch{
+    border: #FFA1FF 1px solid;
+    box-shadow: 0 0 10px #FA13FB, 0 0 10px #FA13FB inset;
+    background-color: #eeeeee00;
+    text-shadow: 0 0 10px #FEF705, 0 0 5px #FEF705, 0 0 2px #FEF705;
+    color: #FFFCA3;
+}
 h1{
     align-self: center;
     margin: auto 2.3%;
     text-align: center;
     font-weight: 500;
 }
+h1.switch{
+    color: #E2A9FF;
+    text-shadow: 0 0 15px #B435F6, 0 0 10px #B435F6, 0 0 5px #B435F6;
+}
 h1 span{
     font-family: "Cormorant", serif;
     font-style: italic;
     font-weight: 500;
+}
+h1.switch span{
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
 /* ------------------------------------------------------- */
 /* image styles */
@@ -47,11 +73,14 @@ img{
 }
 /* ------------------------------------------------------- */
 /* image styles */
-.line{
+hr{
     width: 90%;
     background-color: #111;
     border-radius: 99px;
-    margin: 3% auto;
+}
+hr.switch{
+    background-color: #FFFCA3;
+    box-shadow: 0 0 15px #FEF705, 0 0 10px #FEF705, 0 0 2px #FEF705;
 }
 /* ------------------------------------------------------- */
 /* section styles */
@@ -59,12 +88,20 @@ section{
     border: solid 1px #111;
     margin: 3%;
 }
+section.switch{
+    border: solid 1px #FFA1FF;
+    box-shadow: 0 0 10px #FA13FB, 0 0 10px #FA13FB inset;
+}
 h2{
     font-family: "Cormorant", serif;
     color: #111;
     text-decoration: underline;
     margin-left: 3%;
     font-size: 18px;
+}
+h2.switch, ol li.switch, ol li a.switch{
+    font-family: "Kodchasan", sans-serif;
+    color: #FCF5EC;
 }
 ol li a, ol li{
     font-family: "Cormorant", serif;
@@ -82,6 +119,11 @@ blockquote{
     text-align: center;
     margin: 8% 4%;
     color: #111;
+}
+blockquote.switch{
+    font-family: "Kodchasan", sans-serif;
+    text-shadow: 0 0 10px #FEF705, 0 0 5px #FEF705, 0 0 2px #FEF705;
+    color: #FFFCA3;
 }
 /* ------------------------------------------------------- */
 /* DESKTOP MEDIA QUERY */
