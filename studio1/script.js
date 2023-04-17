@@ -14,7 +14,7 @@
 
     });
 
-    //randomly plays the video with/without a grayscale filter
+    //randomly plays the video with/without a grayscale
     const rand = Math.round(Math.random());
     vidFilter(rand);
 
@@ -48,7 +48,7 @@
                     document.getElementById("one").className = "fadeout hidden";
                 }
                 //second line "...everything is slow..."
-                if(5 < myVideo.currentTime && myVideo.currentTime < 10){
+                if(4 < myVideo.currentTime && myVideo.currentTime < 11){
                     document.getElementById("two").className = "appear showing";
                     console.log(document.getElementById("two"));
                 }
@@ -56,14 +56,14 @@
                     document.getElementById("two").className = "fadeout hidden";
                 }
                 //third line "...slow..."
-                if(10 < myVideo.currentTime && myVideo.currentTime < 15){
+                if(9 < myVideo.currentTime && myVideo.currentTime < 18){
                     document.getElementById("three").className = "appear showing";   
                 }
                 else{
                     document.getElementById("three").className = "fadeout hidden";
                 }
                 //fourth line "...slow."
-                if(15 < myVideo.currentTime && myVideo.currentTime < 20){
+                if(15 < myVideo.currentTime && myVideo.currentTime < 25){
                     document.getElementById("four").className = "appear showing";  
                 }
                 else{

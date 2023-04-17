@@ -6,6 +6,7 @@ video{
     right: 0;
     min-width: 100%;
     min-height: 100%;
+    cursor: pointer;
 }
 .grey{
     filter: grayscale(100%);
@@ -33,7 +34,7 @@ video{
 /* ------------------------------------------------------- */
 /* text content style */
 #text p{
-    color: #999999c4;
+    color: #aaaaaac4;
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
