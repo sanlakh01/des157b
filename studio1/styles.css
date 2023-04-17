@@ -1,3 +1,5 @@
+/* ------------------------------------------------------- */
+/* video styles */
 video{
     position: fixed;
     bottom: 0;
@@ -5,13 +7,11 @@ video{
     min-width: 100%;
     min-height: 100%;
 }
-section{
-    position: absolute;
+.grey{
+    filter: grayscale(100%);
 }
-section img, section p{
-    bottom: 0;
-    left: 0;
-}
+/* ------------------------------------------------------- */
+/* fullscreen icon style */
 .fa-expand{
     position: absolute;
     top: 10px;
@@ -19,12 +19,99 @@ section img, section p{
     font-size: 36px;
     color: orange;
 }
+.fa-expand:hover{
+    cursor: pointer;
+}
+/* ------------------------------------------------------- */
+/* visibility toggle style */
 .hidden{
     opacity: 0;
 }
 .showing{
     opacity: 1;
 }
-.fa-expand:hover{
-    cursor: pointer;
+/* ------------------------------------------------------- */
+/* text content style */
+#text p{
+    color: #999999c4;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+#one{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+#two{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+#three{
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+#four{
+    position: absolute;
+    top: 350px;
+    left: 1050px;
+}
+.appear{
+    animation: fadeIn 2s linear;
+}
+@keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+/* ------------------------------------------------------- */
+/* preloader styles */
+#preloader{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: linear-gradient(70deg, rgb(147, 176, 150) 0%, rgb(116, 78, 63, 1) 100%);
+	color: #111;
+	font-size: 3em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#preloader p{
+    color: #ddd;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    animation: bounce 1s ease-in-out infinite alternate;
+}
+.fadeout {
+    animation: fadeout 2s linear forwards;
+}
+
+@keyframes fadeout {
+	0%{
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes bounce {
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        transform: translateY(-20px);
+    }
 }
