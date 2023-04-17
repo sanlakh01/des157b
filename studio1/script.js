@@ -1,6 +1,7 @@
 (function(){
     const fs = document.querySelector(".fa-expand");
     const myVideo = document.getElementById("myVid");
+    let doneResizing;
 
     //preloader animations
     window.addEventListener('load', function () {
@@ -80,4 +81,20 @@
             document.exitFullscreen();
         }
     });
+
+    //window resizing - to work in mobile view as well
+    /*window.addEventListener("resize", function(){
+        clearTimeout(doneResizing);
+        doneResizing = setTimeout(function () {
+            const width = window.innerWidth;
+            if(width <= 700){
+                myVideo.innerHTML = `<video id="myVid" poster="images/mobile_lantern.jpg" muted playsinline autoplay loop>
+                <source src="media/lantern_mobile.webm" type="video/webm">
+                <source src="media/lantern_mobile.mp4" type="video/mp4">
+        
+                <p>This browser doesn't support HTML5 video. Here is <a href="media/lantern_mobile.mp4">a link</a> to the video instead.</p>
+            </video>`;
+            }
+        }, 500);
+    })*/
 })();
