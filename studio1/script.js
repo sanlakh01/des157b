@@ -38,37 +38,22 @@
         });
 
         //to have the text appear and disappear
-        const intervalID = setInterval(CheckTime, 1000);
-            function CheckTime(){
-                //first line "in the rain..."
-                if(1 < myVideo.currentTime && myVideo.currentTime < 5){
-                    document.getElementById("one").className = "appear showing";
+        let counter = 0;
+        const lineIds = ['one', 'two', 'three', 'four'];
+        function fadeInLine(counter){
+            document.querySelector(`#${lineIds[counter]}`).className = 'appear';
+            setTimeout(function(){
+                document.querySelector(`#${lineIds[counter]}`).className = 'fadeout';
+                if(counter < lineIds.length-1){
+                    counter++;
+                } else {
+                    counter = 0;
                 }
-                else{
-                    document.getElementById("one").className = "fadeout hidden";
-                }
-                //second line "...everything is slow..."
-                if(4 < myVideo.currentTime && myVideo.currentTime < 11){
-                    document.getElementById("two").className = "appear showing";
-                }
-                else{
-                    document.getElementById("two").className = "fadeout hidden";
-                }
-                //third line "...slow..."
-                if(9 < myVideo.currentTime && myVideo.currentTime < 18){
-                    document.getElementById("three").className = "appear showing";   
-                }
-                else{
-                    document.getElementById("three").className = "fadeout hidden";
-                }
-                //fourth line "...slow."
-                if(15 < myVideo.currentTime && myVideo.currentTime < 25){
-                    document.getElementById("four").className = "appear showing";  
-                }
-                else{
-                    document.getElementById("four").className = "fadeout hidden";
-                }
-            }
+                fadeInLine(counter);
+            }, 3000);
+        }
+
+        fadeInLine(counter);
 
         //to enter and exit fullscreen
         fs.addEventListener("click", function(){
