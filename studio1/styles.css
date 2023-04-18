@@ -15,8 +15,8 @@ video{
 /* fullscreen icon style */
 .fa-expand{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1%;
+    right: 1%;
     font-size: 36px;
     color: orange;
 }
@@ -45,26 +45,26 @@ video{
 }
 #one{
     position: absolute;
-    top: 50px;
-    left: 100px;
+    top: 10%;
+    left: 10%;
 }
 #two{
     position: absolute;
-    top: 150px;
-    left: 350px;
+    top: 30%;
+    left: 30%;
 }
 #three{
     position: absolute;
-    top: 250px;
-    left: 800px;
+    top: 50%;
+    left: 60%;
 }
 #four{
     position: absolute;
-    top: 350px;
-    left: 1050px;
+    top: 70%;
+    left: 70%;
 }
 .appear{
-    animation: fadeIn 10s linear;
+    animation: fadeIn 2s linear;
 }
 @keyframes fadeIn{
     0%{
@@ -99,7 +99,7 @@ video{
     animation: bounce 1s ease-in-out infinite alternate;
 }
 .fadeout {
-    animation: fadeout 2s linear forwards;
+    animation: fadeout 10s linear forwards;
 }
 
 @keyframes fadeout {
@@ -117,5 +117,16 @@ video{
     }
     to{
         transform: translateY(-20px);
+    }
+}
+/* ------------------------------------------------------- */
+/* DESKTOP MEDIA QUERY */
+@media only screen and (max-width: 700px){
+    #text p{
+        color: #aaaaaac4;
+        font-size: 28px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-style: italic;
     }
 }
