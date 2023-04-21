@@ -1,0 +1,44 @@
+/* body styles */
+body{
+    border: 6px double #5E3317;
+    margin: 1%;
+    background-color: #ddd;
+    width: 98%;
+    height: 100%;
+    background-image: url(images/grain.png);
+}
+/* ------------------------------------------------------- */
+/* header styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 1%;
+    align-items: center;
+}
+h1{
+    font-family: "Shrikhand", cursive;
+    color:#5E3317;
+    font-size: 24px;
+}
+header button{
+    padding: 10px 20px;
+    background-color: #dddddd00;
+    border: none;
+    cursor: pointer;
+}
+header button img{
+    display: block;
+}
+/* ------------------------------------------------------- */
+/* hide/show opacity styles */
+.show{
+    opacity: 1;
+}
+.hide{
+    opacity: 0;
+}
+/* ------------------------------------------------------- */
+/* section styles */
+section{
+    background: radial-gradient(circle, rgba(118,52,38,1) 0%, rgba(118,52,38,0.7484243697478992) 75%, rgba(118,52,38,0.2862394957983193) 100%);
+}
