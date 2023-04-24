@@ -1,0 +1,48 @@
+{
+    "look1" : {
+        "day" : "Monday, April 17",
+        "brand1" : "Juvia's Place",
+        "brand2" : "BH cosmetics",
+        "shade1" : "Walzana",
+        "shade2" : "Potent"
+    },
+    "look2" : {
+        "day" : "Tuesday, April 18",
+        "brand1" : "Juvia's Place",
+        "shade1" : "Zaz"
+    },
+    "look3" : {
+        "day" : "Wednesday, April 19",
+        "brand1" : "Juvia's Place",
+        "brand2" : "Colourpop",
+        "shade1" : "Zaz",
+        "shade2" : "Atelier"
+    },
+    "look4" : {
+        "day" : "Thursday, April 20",
+        "brand1" : "Juvia's Place",
+        "shade1" : "Ankara"
+    },
+    "look5" : {
+        "day" : "Friday,April 21",
+        "brand1" : "BH Cosmetics",
+        "brand2" : "About-face",
+        "shade1" : "Stone Cold",
+        "shade2" : "Art of Darkness"
+    },
+    "look6" : {
+        "day" : "Saturday, April 22",
+        "brand1" : "Colourpop",
+        "shade1" : "Moon Daisy"
+    },
+    "look7" : {
+        "day" : "Sunday, April  23",
+        "brand1" : "Oden's Eye",
+        "shade1" : "Catnip"
+    },
+    "look8" : {
+        "day" : "Monday, April 24",
+        "brand1" : "Colourpop",
+        "shade1" : "Pose"
+    }  
+}

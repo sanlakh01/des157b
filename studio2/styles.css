@@ -40,5 +40,14 @@ header button img{
 /* ------------------------------------------------------- */
 /* section styles */
 section{
-    background: radial-gradient(circle, rgba(118,52,38,1) 0%, rgba(118,52,38,0.7484243697478992) 75%, rgba(118,52,38,0.2862394957983193) 100%);
+    background: radial-gradient(ellipse, rgba(118,52,38,1) 0%, rgba(118,52,38,0.7484243697478992) 50%, rgba(118,52,38,0.2862394957983193) 100%);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 10%;
+}
+section p{
+    color: #d9c5b5;
+    font-family: "Shrikhand", cursive;
+    font-size: 28px;
+    text-align: center;
 }
