@@ -4,45 +4,61 @@
         "brand1" : "Juvia's Place",
         "brand2" : "BH cosmetics",
         "shade1" : "Walzana",
-        "shade2" : "Potent"
+        "shade2" : "Potent",
+        "type1" :  "Warriors II",
+        "type2" :  "Nightshade"
     },
     "look2" : {
         "day" : "Tuesday, April 18",
         "brand1" : "Juvia's Place",
-        "shade1" : "Zaz"
+        "shade1" : "Zaz",
+        "type1" :  "Warriors II",
+        "brand2" : "undefined"
     },
     "look3" : {
         "day" : "Wednesday, April 19",
         "brand1" : "Juvia's Place",
         "brand2" : "Colourpop",
         "shade1" : "Zaz",
-        "shade2" : "Atelier"
+        "shade2" : "Atelier",
+        "type1" :  "Warriors II",
+        "type2" :  "Fade into Hue"
     },
     "look4" : {
         "day" : "Thursday, April 20",
         "brand1" : "Juvia's Place",
-        "shade1" : "Ankara"
+        "shade1" : "Ankara",
+        "type1" :  "Culture Duochrome",
+        "brand2" : "undefined"
     },
     "look5" : {
         "day" : "Friday,April 21",
         "brand1" : "BH Cosmetics",
         "brand2" : "About-face",
         "shade1" : "Stone Cold",
-        "shade2" : "Art of Darkness"
+        "shade2" : "Art of Darkness",
+        "type1" :  "Sub-Zero",
+        "type2" :  "Matte Fluid Eye Paint"
     },
     "look6" : {
         "day" : "Saturday, April 22",
         "brand1" : "Colourpop",
-        "shade1" : "Moon Daisy"
+        "shade1" : "Moon Daisy",
+        "type1" :  "Super Shock Shadow",
+        "brand2" : "undefined"
     },
     "look7" : {
         "day" : "Sunday, April  23",
         "brand1" : "Oden's Eye",
-        "shade1" : "Catnip"
+        "shade1" : "Catnip",
+        "type1" :  "Cat's Breath",
+        "brand2" : "undefined"
     },
     "look8" : {
         "day" : "Monday, April 24",
         "brand1" : "Colourpop",
-        "shade1" : "Pose"
+        "shade1" : "Pose",
+        "type1" :  "Fade into Hue",
+        "brand2" : "undefined"
     }  
 }

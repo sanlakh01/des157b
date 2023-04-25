@@ -4,8 +4,8 @@ body{
     margin: 1%;
     background-color: #ddd;
     width: 98%;
-    height: 100%;
-    background-image: url(images/grain.png);
+    height: 750px;
+    transition: all 1s;
 }
 /* ------------------------------------------------------- */
 /* header styles */
@@ -32,18 +32,39 @@ header button img{
 /* ------------------------------------------------------- */
 /* hide/show opacity styles */
 .show{
-    opacity: 1;
+    display: block;
 }
 .hide{
-    opacity: 0;
+    display: none;
+}
+/* ------------------------------------------------------- */
+/* main styles */
+main{
+    display: flex;
+    justify-content: center;
+    margin: 20% auto;
+}
+h2{
+    font-family: "Shrikhand", cursive;
+    color:#5E3317;
+    font-size: 32px;
+    text-align: center;
 }
 /* ------------------------------------------------------- */
 /* section styles */
 section{
     background: radial-gradient(ellipse, rgba(118,52,38,1) 0%, rgba(118,52,38,0.7484243697478992) 50%, rgba(118,52,38,0.2862394957983193) 100%);
     border-radius: 20px;
-    padding: 50px;
-    margin: 10%;
+
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 section p{
     color: #d9c5b5;

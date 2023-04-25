@@ -4,12 +4,14 @@ body{
     width: 100%;
     height: 100%;
     background-color: #FCF5EC;
+    transition: all 2s;
 }
 body.switch{
     background-image: url(images/smoke_bg.png);
     background-color: #111;
     width: 100%;
     height: 100%;
+    transition: all 2s;
 }
 /* ------------------------------------------------------- */
 /* header styles */
@@ -72,10 +74,12 @@ img{
     aspect-ratio: 22 / 5;
     margin: auto;
     margin-top: 2%;
+    transition: all 2s;
 }
 img.switch{
     border: 1px #FFAC61 solid;
     box-shadow: 0 0 15px #F27402, 0 0 10px #F27402, 0 0 2px #F27402;
+    transition: all 2s;
 }
 /* ------------------------------------------------------- */
 /* line styles */
