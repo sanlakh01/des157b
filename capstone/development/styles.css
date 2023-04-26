@@ -1,0 +1,88 @@
+/* body styles */
+body{
+    background-image: url(../../images/smoke_bg.png);
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+/* ------------------------------------------------------- */
+/* header styles */
+h1{
+    font-family: "Kodchasan", sans-serif;
+    color: #E2A9FF;
+    text-shadow: 0 0 15px #B435F6, 0 0 10px #B435F6, 0 0 5px #B435F6;
+    font-size: 32px;
+    margin: 2% 2% auto 2%;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+}
+header p{
+    font-family: "Kodchasan", sans-serif;
+    color: #FCF5EC;
+    text-align: center;    
+    font-weight: 200;
+}
+/* ------------------------------------------------------- */
+/* main styles */
+section{
+    margin: auto;
+    width: 60%;
+    gap: 20px;
+    background-color: #11111160;
+    padding: 2%;
+    border: solid 1px #FFA1FF;
+    box-shadow: 0 0 10px #FA13FB, 0 0 10px #FA13FB inset;
+}
+h2{
+    font-family: "Kodchasan", sans-serif;
+    text-shadow: 0 0 10px #FEF705, 0 0 5px #FEF705, 0 0 2px #FEF705;
+    color: #FFFCA3;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+section p{
+    line-height: 1.5em;
+    font-size: 18px;
+    font-family: "Kodchasan", sans-serif;
+    color: #FCF5EC;
+    font-weight: 200;
+}
+section div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+div a:link, div a:visited{
+    text-decoration: none;
+    color: #FCF5EC;
+}
+/* ------------------------------------------------------- */
+/* div styles */
+div h2, div p{
+    margin: 0;
+}
+div p{
+    font-size: 20px;
+}
+/* ------------------------------------------------------- */
+/* back button styles */
+footer p{
+    font-family: "Kodchasan", sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 10px #FEF705, 0 0 5px #FEF705, 0 0 2px #FEF705;
+    color: #FFFCA3;
+    text-align: center;border: solid 1px #FFA1FF;
+    box-shadow: 0 0 10px #FA13FB, 0 0 10px #FA13FB inset;
+    background-color: #11111160;
+    margin: 2% 4% 2% 18%;
+    cursor: pointer;
+    padding: 0.5% 1%;
+    width: 80px;
+}
+footer a:link, footer a:visited{
+    text-decoration: none;
+    text-shadow: 0 0 10px #FEF705, 0 0 5px #FEF705, 0 0 2px #FEF705;
+    color: #FFFCA3;
+}
