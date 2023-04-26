@@ -31,8 +31,17 @@ section p{
     align-self: center;
     line-height: 1.5em;
 }
+section p a{
+    text-decoration: underline;
+}
+section p a:link, section p a:visited{
+    color: #111;
+}
 /* ------------------------------------------------------- */
 /* section styles */
+main{
+    margin-top: 2%;
+}
 section{
     display: flex;
     margin: auto;
@@ -41,6 +50,7 @@ section{
     background-color: #fcf5ec2b;
     padding: 2%;
     border: 1px solid #111;
+    margin-bottom: 2%;
 }
 /* ------------------------------------------------------- */
 /* image styles */
@@ -63,7 +73,7 @@ footer p{
     padding: 0.5% 1%;
     width: 80px;
 }
-a:link, a:visited{
+footer a:link, footer a:visited{
     text-decoration: none;
     color: #111;
 }
