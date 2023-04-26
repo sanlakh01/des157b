@@ -17,17 +17,21 @@
         console.log(globalData, numDataPoints);
     }
 
-    //function to open/close information box
-    info.addEventListener("click", function(){
-        if(box.className === "hide"){
-            box.className = "show";
-        }
-        else{
+    //function to open information box
+    info.addEventListener("click", function(event){
+        event.preventDefault();
+        box.className = "show";
+    });
+
+    //function to open information box
+    document.addEventListener("keydown", function(event){
+        const key = event.key;
+        if(key === "Escape"){
             box.className = "hide";
         }
     });
 
-    //content to appear on screen based on user information
+    //content to appear on screen based on user information, and change bg colors
     function lookInfo(point, data){
         const bgColors = [
             "radial-gradient(circle, rgba(200,190,209,1) 0%, rgba(71,54,48,1) 100%)",
