@@ -15,10 +15,12 @@
     <title>Library Liberty</title>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="granim.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
     <header>
+        <canvas id="canvas-header"></canvas>
         <h1>Today is May 8, 2023</h1>
         <h2>What do the fates have in store for you?</h2>
         <img alt="down" src="images/down.svg" height="40">
@@ -26,6 +28,7 @@
     
     <main>
         <div data-aos="fade-up">
+            <canvas id="canvas-magic"></canvas>
             <img id="mount" alt="mountains" src="images/jn.png">
             <img id="tree" src="images/Layer.png" alt="trees">
             <h1>MAGICIAN:</h1>
@@ -33,6 +36,7 @@
             <div class="box"></div>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <canvas id="canvas-empress"></canvas>
             <img id="mount" alt="mountains" src="images/jn.png">
             <img id="tree" src="images/Layer.png" alt="trees">
             <h1>EMPRESS:</h1>
@@ -40,6 +44,7 @@
             <div class="box"></div>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <canvas id="canvas-emperor"></canvas>
             <img id="mount" alt="mountains" src="images/jn.png">
             <img id="tree" src="images/Layer.png" alt="trees">
             <h1>EMPEROR:</h1>
