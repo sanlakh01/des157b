@@ -3,12 +3,7 @@ body{
     background-color: darkslateblue;
 }
 /* ------------------------------------------------------- */
-/* text styles */
-h1,h2{
-    color: white;
-    font-family: 'Darumadrop One', cursive;
-    text-align: center;
-}
+/* header styles */
 header{
     display: flex;
     flex-direction: column;
@@ -16,11 +11,13 @@ header{
 }
 header img{
     display: block;
-    margin-top: 2%;
+    margin-top: 5%;
+    color: white;
 }
 header h1{
     font-size: 96px;
-    margin: 5%;
+    margin-bottom: 5%;
+    margin-top: 250px;
 }
 header h2{
     font-size: 48px;
@@ -28,6 +25,23 @@ header h2{
     margin: auto;
 }
 /* ------------------------------------------------------- */
+/* text styles */
+h1,h2{
+    color: white;
+    font-family: 'Darumadrop One', cursive;
+    text-align: center;
+    font-size: 200px;
+}
+/* ------------------------------------------------------- */
+/* div styles*/
+div h1{
+    margin: 0;
+}
+div h2{
+    margin: 0;
+}
+/* ------------------------------------------------------- */
+/* mountain image style*/
 #mount{
     width: 100%;
     display: block;
@@ -35,4 +49,16 @@ header h2{
     top: 0;
     z-index: -1;
 }
-
+/* ------------------------------------------------------- */
+/* trees image style*/
+#tree{
+    width: 100%;
+    display: block;
+    position: sticky;
+    top: 0;
+}
+/* ------------------------------------------------------- */
+/*spacing*/
+.box{
+    height: 350px;
+}
