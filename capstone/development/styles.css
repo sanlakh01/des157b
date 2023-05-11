@@ -59,6 +59,15 @@ div a:link, div a:visited{
     color: #FCF5EC;
 }
 /* ------------------------------------------------------- */
+/* image styles */
+img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px #FFAC61 solid;
+    box-shadow: 0 0 15px #F27402, 0 0 10px #F27402, 0 0 2px #F27402;
+}
+/* ------------------------------------------------------- */
 /* div styles */
 div h2, div p{
     margin: 0;
