@@ -32,26 +32,30 @@
     <h2>Named Function</h2>
     <code>
         <pre>
-            function(parameter){
-                Do something();
+            function sentenceCase(string){
+                return string.charAt(0).toUpperCase() + string.slice(1);
             }
+
+            console.log(sentenceCase("is this a sentence?"));
         </pre>
     </code>
 
     <h2>Function Expression</h2>
     <code>
         <pre>
-            const aVaraiable = function(parameter){
-                Do something();
+            const sentence = function sentenceCase (string){
+                return string.charAt(0).toUpperCase() + string.slice(1);
             }
+
+            console.log(sentenceCase("is this a sentence?"));
         </pre>
     </code>
 
     <h2>Arrow Function</h2>
     <code>
         <pre>
-            const aVaraiable = arrow function...{
-            }
+            const sentence = string => string.charAt(0).toUpperCase() + string.slice(1);
+            console.log(sentenceCase("is this a sentence?"));
         </pre>
     </code>
 
