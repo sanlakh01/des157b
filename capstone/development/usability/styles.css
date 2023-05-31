@@ -13,14 +13,14 @@ body{
 main{
     position: relative;
 }
-.layer {
+/* .layer {
     position: absolute;
     width: 96%;
     transition: opacity 1s;
     top: 0;
     left: 0;
     background-color: #c3d6c9;
-}
+} */
 .showing {
     visibility: visible;
     opacity: 1;
