@@ -3,7 +3,7 @@
     "use strict";
 
     const body = document.querySelector("body");
-    const seals = ["images/sealPics/seal.png", "images/sealPics/sealP1.png", "images/sealPics/sealP2.png", "images/sealPics/sealP3.png", "images/sealPics/sealP4.png", "images/sealPics/sealP5.png", "images/sealPics/sealP6.png", "images/sealPics/sealP7.png", "images/sealPics/sealP8.png", "images/sealPics/sealP9.png", "images/sealPics/sealP10.png", "images/sealPics/sealP11.png", "images/sealPics/sealP12.png"];
+    const seals = ["images/sealPics/seal.png", "images/sealPics/sealP1.png", "images/sealPics/sealp2.png", "images/sealPics/sealp3.png", "images/sealPics/sealP4.png", "images/sealPics/sealP5.png", "images/sealPics/sealP6.png", "images/sealPics/sealP7.png", "images/sealPics/sealP8.png", "images/sealPics/sealP9.png", "images/sealPics/sealP10.png", "images/sealPics/sealP11.png", "images/sealPics/sealp12.png"];
     const sealDesc = document.getElementById("s_desc");
     const puzzleDesc = document.getElementById("p_desc");
 
